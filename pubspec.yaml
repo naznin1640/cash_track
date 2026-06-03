@@ -36,6 +36,8 @@ dependencies:
   material_symbols_icons: ^4.2928.1
   material_design_icons_flutter: ^7.0.7296
   flutter_riverpod: ^3.3.1
+  flutter_otp_text_field: ^1.5.1+1
+  flutter_svg: ^2.3.0
 
 dev_dependencies:
   flutter_test:

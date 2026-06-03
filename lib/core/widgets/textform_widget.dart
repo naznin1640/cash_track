@@ -1,5 +1,6 @@
 import 'package:cash_track/core/constants/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class TextformWidget extends StatelessWidget {
   final String? hintText;
@@ -7,18 +8,21 @@ class TextformWidget extends StatelessWidget {
   final Widget? prefix;
   final TextEditingController? controller;
   final FormFieldValidator<String>? validator;
+  final TextInputType? keyboard;
   const TextformWidget({
     super.key,
     required this.hintText,
     this.suffix,
     this.controller,
     this.validator,
-    this.prefix
+    this.prefix,
+    this.keyboard
   });
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      keyboardType: keyboard,
       controller: controller,
       validator: validator,
       decoration: InputDecoration(

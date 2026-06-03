@@ -2,6 +2,7 @@ import 'package:cash_track/core/constants/app_colors.dart';
 import 'package:cash_track/core/widgets/button_widget.dart';
 import 'package:cash_track/features/auth/providers/qr_notifier.dart';
 import 'package:cash_track/features/auth/providers/step_notifier.dart';
+import 'package:cash_track/features/auth/view/login_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -147,6 +148,9 @@ class ScanView extends ConsumerWidget {
             Padding(
               padding: const EdgeInsets.only(left: 21, right: 21, top: 132),
               child: ButtonWidget(
+                ontap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => LoginView()));
+                },
                 txt: "Register User",
                 icon: Icons.arrow_forward_ios,
               ),

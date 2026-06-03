@@ -81,6 +81,7 @@ class LoginView extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(left: 20,right: 20),
                       child: TextformWidget(
+                        keyboard: TextInputType.number,
                         prefix: Container(
                           width: 60,
                           alignment: Alignment.center,
