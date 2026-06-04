@@ -92,7 +92,7 @@ class DrawerView extends StatelessWidget {
                   ),
                 ),
                 Row(
-              spacing: 10,
+              spacing: 12,
               children: [
                 SvgPicture.asset("assets/images/home.svg"),
                 Text("Home ",
@@ -105,7 +105,7 @@ class DrawerView extends StatelessWidget {
               ],
             ),
             Row(
-              spacing: 10,
+              spacing: 11,
               children: [
                 SvgPicture.asset("assets/images/clients.svg", color: AppColors.secondaryText,),
                 Text("Customers ",
@@ -118,9 +118,9 @@ class DrawerView extends StatelessWidget {
               ],
             ),
              Row(
-              spacing: 10,
+              spacing: 12,
               children: [
-                SvgPicture.asset("assets/images/scashflow.svg",),
+                SvgPicture.asset("assets/images/cashflow.svg"),
                 Text("Cash Flow Forecast ",
                 style: TextStyle(
                   fontFamily: "Inter",
@@ -131,7 +131,7 @@ class DrawerView extends StatelessWidget {
               ],
             ),
             Row(
-              spacing: 10,
+              spacing: 13,
               children: [
                 SvgPicture.asset("assets/images/reminder.svg",),
                 Text("Reminder",
@@ -144,7 +144,7 @@ class DrawerView extends StatelessWidget {
               ],
             ),
             Row(
-              spacing: 10,
+              spacing: 13,
               children: [
                SvgPicture.asset("assets/images/subscription.svg",),
                 Text("Subscription",
@@ -157,7 +157,7 @@ class DrawerView extends StatelessWidget {
               ],
             ),
             Row(
-              spacing: 10,
+              spacing: 15,
               children: [
                 SvgPicture.asset("assets/images/invoice.svg",color: AppColors.secondaryText,),
                 Text("Invoices",
@@ -170,7 +170,7 @@ class DrawerView extends StatelessWidget {
               ],
             ),
              Row(
-              spacing: 10,
+              spacing: 11,
               children: [
                 SvgPicture.asset("assets/images/settings.svg",),
                 Text("Settings",
@@ -183,7 +183,7 @@ class DrawerView extends StatelessWidget {
               ],
             ),
             Row(
-              spacing: 10,
+              spacing: 13,
               children: [
               SvgPicture.asset("assets/images/report.svg",color: AppColors.secondaryText,),
                 Text("reports",
@@ -198,7 +198,7 @@ class DrawerView extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 150),
               child: Row(
-                spacing: 10,
+                spacing: 14,
                 children: [
                   Icon(Icons.logout, color: AppColors.secondaryText,),
                   Text("Logout",

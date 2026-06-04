@@ -14,4 +14,6 @@ class AppColors {
   static const Color profilebg =Color(0XFFD9D9D9);
   static const Color green = Color(0XFF439669);
   static const Color overduelight = Color(0XFFFFE6E6);
+  static const Color overdueMedium = Color(0XFFFFA6A6);
+  static const Color overdueDark = Color(0XFFD50909);
 }
