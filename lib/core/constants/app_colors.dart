@@ -16,4 +16,7 @@ class AppColors {
   static const Color overduelight = Color(0XFFFFE6E6);
   static const Color overdueMedium = Color(0XFFFFA6A6);
   static const Color overdueDark = Color(0XFFD50909);
-}
+  static const Color lighttext = Color(0XFF646161);
+  static const Color blueborder = Color(0XFFD0F7EA);
+  static const Color partial = Color(0XFFD1E8FF);
+} 

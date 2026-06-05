@@ -12,7 +12,7 @@ class LightblueCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: AppColors.authCardbg,
         borderRadius: BorderRadius.circular(13),
-        border: Border.all(color: AppColors.border)
+        border: Border.all(color: AppColors.blueborder)
       ),
       child: child,
     );

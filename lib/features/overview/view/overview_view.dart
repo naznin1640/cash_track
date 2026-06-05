@@ -69,82 +69,75 @@ class OverViewView extends StatelessWidget {
                     borderRadius: BorderRadius.circular(13),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.only(
-                      top: 20,
-                      bottom: 20,
-                      left: 20,
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.only(right: 20),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Column(
-                            spacing: 15,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                spacing: 4,
-                                children: [
-                                  CircleAvatar(
-                                    backgroundColor: AppColors.green,
-                                    child: Padding(
-                                      padding: const EdgeInsets.all(6),
-                                      child: Icon(
-                                        Symbols.account_balance_sharp,
-                                        color: AppColors.secondaryText,
-                                      ),
-                                    ),
-                                  ),
-                                  Text(
-                                    "Total Amount",
-                                    style: TextStyle(
+                    padding: const EdgeInsets.all(20),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          spacing: 15,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              spacing: 4,
+                              children: [
+                                CircleAvatar(
+                                  backgroundColor: AppColors.green,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(6),
+                                    child: Icon(
+                                      Symbols.account_balance_sharp,
                                       color: AppColors.secondaryText,
-                                      fontSize: 17,
-                                      fontFamily: "Inter",
-                                      fontWeight: FontWeight.w500,
                                     ),
                                   ),
-                                ],
-                              ),
-                              Text(
-                                "₹ 5,00,000",
-                                style: TextStyle(
-                                  color: AppColors.secondaryText,
-                                  fontWeight: FontWeight.w700,
-                                  fontFamily: "Inter",
-                                  fontSize: 25,
                                 ),
-                              ),
-                              Container(
-                                decoration: BoxDecoration(
-                                  color: AppColors.secondary,
-                                  borderRadius: BorderRadius.circular(13),
-                                ),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(5),
-                                  child: Row(
-                                    children: [
-                                      SvgPicture.asset(
-                                        "assets/images/arrow2.svg",
-                                      ),
-                                      Text(
-                                        "12%",
-                                        style: TextStyle(
-                                          color: AppColors.primary,
-                                          fontSize: 13,
-                                          fontWeight: FontWeight.w600,
-                                        ),
-                                      ),
-                                    ],
+                                Text(
+                                  "Total Amount",
+                                  style: TextStyle(
+                                    color: AppColors.secondaryText,
+                                    fontSize: 17,
+                                    fontFamily: "Inter",
+                                    fontWeight: FontWeight.w500,
                                   ),
                                 ),
+                              ],
+                            ),
+                            Text(
+                              "₹ 5,00,000",
+                              style: TextStyle(
+                                color: AppColors.secondaryText,
+                                fontWeight: FontWeight.w700,
+                                fontFamily: "Inter",
+                                fontSize: 25,
                               ),
-                            ],
-                          ),
-                          SvgPicture.asset("assets/images/cash.svg"),
-                        ],
-                      ),
+                            ),
+                            Container(
+                              decoration: BoxDecoration(
+                                color: AppColors.secondary,
+                                borderRadius: BorderRadius.circular(13),
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(5),
+                                child: Row(
+                                  children: [
+                                    SvgPicture.asset(
+                                      "assets/images/arrow2.svg",
+                                    ),
+                                    Text(
+                                      "12%",
+                                      style: TextStyle(
+                                        color: AppColors.primary,
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        SvgPicture.asset("assets/images/cash.svg"),
+                      ],
                     ),
                   ),
                 ),
